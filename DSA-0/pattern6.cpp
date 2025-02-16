@@ -2,8 +2,8 @@
 using namespace std;
 int pattern6(int n)
 {
-    for (int i=0;i<n;i++){
-        for (int j=1;j<=n-i;j++){
+    for (int i=1;i<=n;i++){
+        for (int j=1;j<=n-i+1;j++){
             cout << j<< " ";
         }
         cout << endl;
@@ -12,7 +12,7 @@ int pattern6(int n)
 }
 
 int main() {
-    pattern6(6);
+    pattern6(7);
     return 0;
 }
 
