@@ -3,15 +3,15 @@ using namespace std;
 int pattern8(int n) {
     for (int i=0;i<n;i++){
         //space
-        for(){
+        for( int j=0;j<i;j++){
             cout<<" ";
         }
         //star
-        for(){
+        for(int j =0;j<2*n-2*i-1 ;j++){
             cout<<"*";
         }
         //for space
-        for(){
+        for(int j = 0;j<i;j++){
 cout << " ";
         }
         cout << endl;
@@ -21,6 +21,12 @@ cout << " ";
 }
 
 int main(){
-    pattern8(9);
+    pattern8(5);
     return 0;
 }
+//print the pattern below
+//*********
+// *******
+//  *****
+//   ***
+//    *
