@@ -42,6 +42,6 @@ cout << " ";
 
 int main()
 {
-    pattern9(5);
+    pattern9(6);
     return 0;
 }
